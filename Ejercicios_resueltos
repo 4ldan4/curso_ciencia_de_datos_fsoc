@@ -1,0 +1,23 @@
+Ejercicio 1: Escribe un programa que solicite al usuario su nombre y edad, y luego imprima un mensaje que diga "Hola, (nombre). Tienes (edad) años".
+nombre = input("Inserte su nombre")
+edad = int(input("Inserte su edad"))
+print("Hola", nombre, "tenés", edad, "años")
+Ejercicio 2: Escribe un programa que pida al usuario ingresar un número. Luego, verifica si ese número es positivo o negativo, e imprime un mensaje correspondiente.
+número = int(input("Inserte un número"))
+if número < 0:
+print("negativo")
+else: print("positivo")
+Ejercicio 3: Crea un programa que solicite al usuario ingresar su calificación en un exámen (un número entre 0 y 100). Luego, determina si la calificación es A (90-100), B (80-89), C (70-79), D (60-69) o F(menos de 60) e imprime la calificación correspondiente.
+calificación = float(input("Inserte su calificación en el exámen"))
+if calificación > 90 and calificación < 100:
+print("Su calificación en el exámen es A")
+elif calificación > 80 and calificación < 90:
+print("Su calificación en el exámen es B")
+elif calificación > 70 and calificación < 80:
+print("Su calificación en el exámen es C")
+elif calificación > 60 and calificación < 70:
+print("Su calificación en el exámen es D")
+else: print("Su calificación en el exámen es F")
+Ejercicio 5: Investigar
+¿Qué es un array? Un array es un tipo de dato estructurado que permite almacenar un conjunto de datos del mismo tipo y relacionados. Los datos almacenados en un array se denominan elementos.
+¿Qué es un ciclo iterativo? Un ciclo iterativo es una función que se continuará ejecutando hasta que se cumpla la condición indicada.
