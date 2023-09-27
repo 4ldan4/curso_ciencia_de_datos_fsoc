@@ -1,0 +1,65 @@
+Vectores:
+a. Crea una lista con todas tus materias cursadas e itinerala con un ciclo for imprimiento un mensaje en pantalla.
+materias_cursadas: ("FundamentosDeLaCienciaPolíticaI", "TeoríaPolíticaYSocialI", "TeoríaSociológica", "FilosofíaYMétodos", "Economía", "HistoriaContemporánea", "HistoriaLatinoamericana")
+for materia in materias_cursadas:
+print("materia cursada:", materia)
+materia cursada: FundamentosDeLaCienciaPolíticaI
+materia cursada: TeoríaPolíticaYSocialI
+materia cursada: TeoríaSociológica
+materia cursada: FilosofíaYMétodos
+materia cursada: Economía
+materia cursada: HistoriaContemporánea
+materia cursada: HistoriaLatinoamericana
+1. Suma de elementos: Crea una lista de números y escribe un programa que calcule la suma de todos los elementos de la lista.
+números = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+sum(números)
+45
+2. Buscar el máximo: Escribe un programa que encuentre el valor máximo en una lista de números.
+números = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+max(números) 
+9
+3. Crea un programa que calcule el promedio de todos los elementos de un vector.
+suma = 0
+for valor in números
+suma = suma + valor
+cantidad_de_elementos = len(números)
+promedio = suma / cantidad_de_elementos
+print(f"el promedio es {promedio}")
+el promedio es 5.0
+
+Diccionarios:
+1. Registro de estudiantes: Crea un diccionario en el que las claves sean los nombres de los estudiantes y los valores sean sus calificaciones. Luego, escribe un programa que permita al usuario buscar la calificación de un estudiante por su nombre.
+CalificacionesDeLosEstudiantesDeHistoriaContemporánea = {
+"Lisandro" : 10,
+"Agustina" : 10,
+"Aldana" : 9,
+"Iván" : 7,
+"Francisco" : 9 }
+CalificacionesDeLosEstudiantesDeHistoriaContemporánea ["Aldana"]
+9
+2. Crea un diccionario que contenga tu nombre, edad, hobbies y toda la información que consideres relevantes para presentarte en el curso.
+Aldana = {
+"nombre completo" : "Aldana Agustina Duarte",
+"edad" : "20",
+"hobbies" : "dibujar", "pintar", "escuchar música", "leer"
+"estilo de dibujo": "realismo"
+"banda favorita": "Muse"
+"género literario favorito": "no ficción" }
+3. Contar elementos: Crea un diccionario que represente una bolda con diferentes tipos de frutas y la cantidad de cada tipo de fruta en la bolsa. Escribe un programa que cuente cuántas frutas hay en total.
+Frutas = {
+"naranja" : 5,
+"kiwi" : 2,
+"manzana" : 2,
+"coco" : 1,
+"limón", 2 }
+total = sum(Frutas.values())
+print(total)
+12
+
+
+
+
+
+
+
+
